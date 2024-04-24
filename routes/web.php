@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NamaKamuController;
+use App\Http\Controllers\NewController;
 
 /*
 |--------------------------------------------------------------------------

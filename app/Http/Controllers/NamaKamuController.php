@@ -14,5 +14,4 @@ class NamaKamuController extends Controller
 
         return view('kontak', compact('nama', 'noHp', 'alamat'));
     }
-
 }
