@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NamaKamuController;
 use App\Http\Controllers\NewController;
@@ -21,11 +22,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/mahasiswa', function () {
-    return view('mahasiswa');
-});
+
 Route::get('/kelas', function () {
     return view('kelas');
 });
+Route::get('/gambar', [MahasiswaController::class, 'gambar']);
 Route::get('/kontak', [NamaKamuController::class, 'infoKontak']);
+Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
 

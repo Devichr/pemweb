@@ -1,8 +1,6 @@
 @extends('index')
 @section('konten')
-<div class="m-16">
 <h1 class="text-xl font-black">Mahasiswa Kelas N2023</h1>
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
 
     <table class="border-collapse border-slate-500 table-autow-full text-sm text-left rtl:text-right text-gray-500 w-full">
         <thead class="text-xs text-gray-700 uppercase">    
@@ -34,6 +32,4 @@
         </tr>
     </tbody>
 </table>
-</div>
-</div>
 @endsection

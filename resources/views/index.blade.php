@@ -25,9 +25,15 @@
                 <li><a class="text-white transition duration-200 hover:text-neutral-600 hover:ease-in-out motion-reduce:transition mx-4" href="/kelas">Kelas </a></li>
                 <li><a class="text-white transition duration-200 hover:text-neutral-600 hover:ease-in-out motion-reduce:transition mx-4" href="/about">About</a></li>
                 <li><a class="text-white transition duration-200 hover:text-neutral-600 hover:ease-in-out motion-reduce:transition mx-4" href="/kontak">Kontak</a></li>
+                <li><a class="text-white transition duration-200 hover:text-neutral-600 hover:ease-in-out motion-reduce:transition mx-4" href="/gambar">Gambar</a></li>
                 </ol>
                 </nav>
         </header>
-        @yield('konten')
+        <div class="m-16">
+            <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                @yield('konten')                
+            </div>  
+            </div>
+
     </body>
 </html>
